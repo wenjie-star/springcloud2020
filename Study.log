@@ -1,0 +1,26 @@
+学到了第75集
+
+第42集手写轮询负载均衡规则等JUC规则学习完之后再写，先跳过
+
+另外：java8要重新学一下。
+
+servlet对比着spring5.0 需要再学一下和spring5.0学一下
+
+设计模式中的命令模式需要看一下。
+
+gateway中route：路由是构建网关的基本模块，由ID,目标URI，一系列的断言和过滤器构成，如果断言为true则匹配该路由。
+断言就是匹配条件。核心逻辑：路由转发和执行过滤器链。
+---------------------------------------------
+********redis需要系统的学习一下，包括数据库这块儿
+
+A：高可用性Availability
+C: 强一致性Consistency
+P：分区容错性Partition tolerance
+三个注册中心的异同点, CAP: Eureka属于AP 每次请求都能获取到非错的响应——但是不保证获取的数据为最新数据，
+Consul和Zookeeper属于CP 等同于所有节点访问同一份最新的数据副本
+
+Eureka和Consul都有对外暴接口，有web界面，Zookeeper只有客户端。
+
+服务注册中心：Eureka，Zookeeper,Consul,Nacos
+服务调用：Ribbon，LoadBalancer,Feign,OpenFeign
+服务降级：Hystrix
