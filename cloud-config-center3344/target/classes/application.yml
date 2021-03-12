@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: git@github.com:wenjie-star/springcloud-config. #github上面的git仓库名字不是连接
+          uri: git@github.com:wenjie-star/springcloud-config.git  #github上面的git仓库名字不是连接
           search-paths:
             - springcloud-config
           #读取分支，这里是main分支
