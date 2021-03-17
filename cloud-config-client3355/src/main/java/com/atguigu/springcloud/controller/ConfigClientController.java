@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class ConfigClientController {
 
-    @Value("${config.info}")
+    @Value("${com.atguigu.springcloud.alibaba.config.info}")
     private String configInfo;
 
     @GetMapping(value = "/configInfo")

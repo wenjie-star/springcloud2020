@@ -15,7 +15,7 @@ public class ConfigClientController {
     @Value("${server.port}")
     private String serverPort;
 
-    @Value("${config.info}")
+    @Value("${com.atguigu.springcloud.alibaba.config.info}")
     private String configInfo;
 
     @GetMapping(value = "/configInfo")
